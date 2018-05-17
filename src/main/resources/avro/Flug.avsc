@@ -1,0 +1,23 @@
+{
+  "namespace": "com.opencore.fraport",
+  "type": "record",
+  "name": "Flug",
+  "fields": [
+    {
+      "name": "flugnummer",
+      "type": "int"
+    },
+    {
+      "name": "ankunftszeit",
+      "type": "string"
+    },
+    {
+      "name": "gate",
+      "type": "int"
+    },
+    {
+      "name": "airline",
+      "type": "string"
+    }
+  ]
+}
